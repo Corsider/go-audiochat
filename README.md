@@ -13,7 +13,7 @@ vcpkg install portaudio --triplet x64-mingw-static
 set CGO_CFLAGS=-I{{path_to_vcpkg}}/installed/x64-mingw-static/include
 set CGO_LDFLAGS=-L{{path_to_vcpkg}}}/installed/x64-mingw-static/lib -lopus -lportaudio -lwinmm -lole32 -lsetupapi
 ```
-4. Установить путь до PRG_CONFIG пакетов:
+4. Установить путь до PKG_CONFIG пакетов:
 ```
 $env:PKG_CONFIG_PATH = "{{path_to_vcpkg}}/installed/x64-mingw-static/lib/pkgconfig"
 ```
