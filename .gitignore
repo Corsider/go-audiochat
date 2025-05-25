@@ -1,0 +1,9 @@
+.idea
+
+.dll
+.lib
+
+.pc
+*.exe
+*.iml
+*.xml
