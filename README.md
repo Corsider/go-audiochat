@@ -1,10 +1,7 @@
 # go-audiochat
-___
 Простой full-duplex UDP голосовой чат-клиент для двух ПК.
 
-___
 # Сборка (Windows)
-___
 1. Установить `vcpkg`
 2. Установить с помощью `vcpkg` пакеты `opusfile`, `portaudio`:
 ```
@@ -23,7 +20,6 @@ $env:PKG_CONFIG_PATH = "{{path_to_vcpkg}}/installed/x64-mingw-static/lib/pkgconf
 5. `go mod download`, `go build`
 
 # Запуск (пример)
-___
 ПК №1 (адрес 192.168.0.120):
 ```
 .\go-audiochat.exe -d 192.168.0.100:9001 -l :9000
